@@ -27,6 +27,39 @@ namespace PracticeIntermediate
             //var calculator = new Calculator();
             //Console.WriteLine(calculator.Add(1, 2, 3, 4));
 
+            //var student = new Student();
+            //student.set(new DateTime(1990, 4, 8));
+            //Console.WriteLine(student.get());
+
+            //var employee = new employee(new DateTime(1999, 11, 30));
+            //Console.WriteLine(employee.Age);
+
+            //var cookie = new HttpCookie();
+            //cookie["name"] = "Jannat";
+            //Console.WriteLine(cookie["name"]);
+
+            //var text = new Text();
+            //text.width = 100;
+            //text.Copy();
+
+            //var migrate = new Db(new Logger());
+            //var install = new Installer(new Logger());
+            //migrate.Migrate();
+            //install.Install();
+
+            //var car = new Car("678h");
+
+            //Sentence sentence = new Sentence();
+            //Shape shape = sentence;
+            //sentence.width = 100;
+            //shape.width = 900;
+            //Console.WriteLine(sentence.width);
+
+            var shapes = new List<Shape>();
+            shapes.Add(new Circle());
+            shapes.Add(new Rectangle());
+            var canvas = new Canvas();
+            canvas.DrawShapes(shapes);
             Console.ReadKey();
         }
     }
