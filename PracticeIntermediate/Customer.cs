@@ -12,10 +12,12 @@ namespace PracticeIntermediate
             Orders = new List<Order>();
         }
         public Customer(int id)
+            : this()
         {
             Id = id;
         }
         public Customer(int id, string name)
+            :this(id)
         {
             Id = id;
             Name = name;
